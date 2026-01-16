@@ -18,7 +18,7 @@ Using bold allows for thicker fonts when indicating text which can be done by `<
 
 #### Example
 
-```http
+```https
 <p>This is <b>Bold</b> text.</p>
 ```
 
@@ -27,7 +27,7 @@ Underlined are mainly used to show lines underneath the text which is useful whe
 
 #### Example
 
-```http
+```https
 <p>This is <u>underline</u> text.</p>
 ```
 ## Italisize (i)
@@ -35,7 +35,7 @@ Italisizing crreates for contrasting of style between texts which uses `<i>` and
 
 #### Example
 
-```http
+```https
 <p>This is <i>italisize</i> text.</p>
 ```
 ## Struckthrough (s)
@@ -43,7 +43,7 @@ Struckthrough is a line that crosses through the text which uses `<s>` and `</s>
 
 #### Example
 
-```http
+```https
 <p>This is <s>strucktrhough</s> text.</p>
 ```
 ## Subscript (sub)
@@ -51,7 +51,7 @@ Subscript is a rare usage of formatting which are small characters that are on t
 
 #### Example
 
-```http
+```https
 <p>This is <sub>subscript</sub> text.</p>
 ```
 ## Superscipt (sup)
@@ -59,7 +59,7 @@ Superscript is the opposite of subscipt as it is shown on top of values like exp
 
 #### Example
 
-```http
+```https
 <p>This is <s>supercript</sup> text.</p>
 ```
 
