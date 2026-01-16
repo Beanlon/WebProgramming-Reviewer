@@ -7,7 +7,7 @@ The HTML element is everything from the start tag to the end tag:
 
 
 #### Examples of some HTML elements:
-```http
+```https
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 ```
@@ -35,19 +35,19 @@ those are examples of how each heading works
 ## p (paragraph)
 Paragraph elements are how we write small statements inside the html file where we are able to have start and end tags.
 #### Example
-```http
+```https
 <p> Hi my name is Jeric B. Mata </p>
 ```
 
 ## br (break line)
 Now this is in line and related to paragraphs as it allows you to literally break a line of Paragraph.
 #### Example
-```http
+```https
 <p> Hi my name is Jeric B. Mata. <br> I like to play sports.
 </p>
 ```
 #### Output
-```http
+```https
 Hi my name is Jeric B. Mata
 I like to play sports.
 ```
@@ -62,7 +62,7 @@ All HTML documents consist of nested HTML elements.
 
 The following example contains four HTML elements (`<html>`, `<body>`, `<h1>` and `<p>)`:
 
-```http
+```https
 <!DOCTYPE html>
 <html>
 <body>
