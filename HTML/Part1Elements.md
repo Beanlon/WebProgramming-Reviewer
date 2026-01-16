@@ -15,8 +15,8 @@ The HTML element is everything from the start tag to the end tag:
 
 | Start Tag | Element Content     | End tag               |
 | :-------- | :------- | :------------------------- |
-| `h1` | `heading` | </h1> |
-| `p`  | `paragraph` | </p> |
+| `h1` | `heading` | `</h1>` |
+| `p`  | `paragraph` | `</p>` |
 | `br` | `break line` | none |
 
 
