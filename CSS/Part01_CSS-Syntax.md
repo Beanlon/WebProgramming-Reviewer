@@ -1,6 +1,6 @@
 # CSS Syntax
 A CSS rule consists of a selector and a declaration block:
-![Syntax](images/Syntax.jpg)
+![Syntax](/images/Syntax.jpg)
 The selector points to the HTML element you want to style.
 The declaration block contains one or more declarations separated by semicolons.
 
