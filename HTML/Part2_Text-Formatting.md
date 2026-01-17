@@ -8,7 +8,7 @@ Being able to do text formatting allows for better paragraph creations for bette
 |-------------------|---------|---------|
 |   Bold            | `<b>`   | `</b>`  |
 |   Underline       | `<u>`   | `</u>`  |
-|   Italisze        | `<i>`   | `</i>`  |             
+|   Italisize        | `<i>`   | `</i>`  |             
 |   Struckthrough   | `<s>`   | `</s>`  |           
 |   Subscript       | `<sub>` | `</sub>`  |             
 |   Superscript     | `<sup>` | `</sup>`  |             
