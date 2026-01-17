@@ -30,5 +30,5 @@ Here is a diagram illustrating the placement and appearance of the horizontal li
 ```
 #### Output
 
-### This is some text with a horizontal line.
-### This is another text with another horizontal line.
+## This is some text with a horizontal line.
+## This is another text with another horizontal line.
