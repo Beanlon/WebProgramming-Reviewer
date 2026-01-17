@@ -56,3 +56,48 @@ The `<footer>` tag represents the footer section of a webpage. It typically cont
     <!-- Footer content here -->
 </footer>
 ```
+
+#### Example Diagram
+```https
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Using Semantic Tags Example</title>
+</head>
+<body>
+  <header>
+	<h1>Your Website Title</h1>
+	<nav>
+	  <ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About Us</a></li>
+	  </ul>
+	</nav>
+  </header>
+
+  <main>
+	<section>
+	  <h2>About Us</h2>
+	  <p>Some information.</p>
+	</section>
+
+	<article>
+	  <h2>Latest News</h2>
+	  <p>Read the latest news article here.</p>
+	</article>
+
+	<aside>
+	  <h3>Related Links</h3>
+	  <ul>
+		<li><a href="#">Link 1</a></li>
+		<li><a href="#">Link 2</a></li>
+	  </ul>
+	</aside>
+  </main>
+
+  <footer>
+	<p>&copy; 2023 Your Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+```
