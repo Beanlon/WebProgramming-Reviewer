@@ -22,7 +22,7 @@ Ordered lists are lists in html that shows an order of numbers along with their 
 3. Third Part
 ```
 
-## OrderUned Lists
+## Unordered Lists
 Ordered lists are lists in html that shows an order of numbers along with their conents it uses `<ol>` and `</ol>` as their tags per content on the list
 
 #### Example 
