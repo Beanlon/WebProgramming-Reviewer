@@ -78,7 +78,7 @@ The width and height properties let you decide how big your box (including conte
 
 ```
 ## CSS Box Model
-![alt text](image.png)
+![Box Model](BoxModel.jpg)
 
 ### Margin Collapse
 Sometimes, when you have two boxes one below another, the space between them isn't what you'd expect. That's because of margin collapse: the larger margin between them is used, and the smaller one is ignored. Keep this in mind when you're spacing out your elements.
