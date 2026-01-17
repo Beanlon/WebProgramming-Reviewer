@@ -23,7 +23,7 @@ Ordered lists are lists in html that shows an order of numbers along with their 
 ```
 
 ## Unordered Lists
-Ordered lists are lists in html that shows an order of numbers along with their conents it uses `<ol>` and `</ol>` as their tags per content on the list
+Unordered lists are lists in html that shows a bulleted list of items using `<ul` and `</ul>` tags.
 
 #### Example 
 
