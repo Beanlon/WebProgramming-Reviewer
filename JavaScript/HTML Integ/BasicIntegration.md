@@ -28,7 +28,8 @@ document.getElementById("demo").innerHTML = "<h2>Hello World</h2>";
 </html> 
 ```
 
-Let me give you another Example
+## .onclick()
+Onclick is a property that are mostly used on buttons themselves to handle differenet processes based on the function itself.
 
 Using HTML we are going to change a specific text in an element in our `index.html` with the help of our code that we are going to place in `index.js`
 
