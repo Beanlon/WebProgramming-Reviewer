@@ -35,6 +35,40 @@ To add margin to an element, you can use the CSS margin property. This property 
 5	}
 6	
 ```
+```https
+1	.example {
+2	  margin: 10px; /* sets equal margin for all sides */
+3	  margin-top: 20px; /* sets specific margin for the top side */
+4	  margin-right: 15px; /* sets specific margin for the right side */
+5	}
+6	
+```
+
+**Note**: When setting up values for either horizontal or vertical or specific values on each side you can set it within padding and margin without specifically stating the side
+
+#### Examples
+```https
+1	.example {
+2     margin: 20px 40px;
+5	}
+6	
+```
+  * `20px` - vertical values
+  * `40px` - horizontal values
+
+**Note**: You can also set it for each sides
+#### Examples
+```https
+1	.example {
+2     margin: 20px 40px 50px 30px;
+5	}
+6	
+```
+  * `20px` - top value
+  * `40px` - right value
+  * `50px` - bottom value
+  * `30px` - left value
+
 
 In addition to the above options, CSS also provides a special value for the **margin** property called **auto**. When you set **margin: auto;** on a block-level element, it automatically calculates and distributes the margins evenly, centering the element horizontally within its parent container. This can be useful for creating centered layouts.
 
@@ -78,7 +112,7 @@ The width and height properties let you decide how big your box (including conte
 
 ```
 ## CSS Box Model
-![alt text](image.png)
+![Box Model](/images/BoxModel.jpg)
 
 ### Margin Collapse
 Sometimes, when you have two boxes one below another, the space between them isn't what you'd expect. That's because of margin collapse: the larger margin between them is used, and the smaller one is ignored. Keep this in mind when you're spacing out your elements.
