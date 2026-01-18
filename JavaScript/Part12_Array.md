@@ -129,4 +129,26 @@ These are some extra properties or utilities of an array
     console.log(fruits.[2]); //Output: undefined
     console.log(fruits.[3]); //Output: undefined
     ``
+* `sort()` - sorts the elements by order
+
+    ```https
+    let fruits = ["apple", "orange". "banana", "Coconut"];
+    fruits.unshift("mango);
+
+    console.log(fruits.[0]); //Output: apple
+    console.log(fruits.[1]); //Output: banana
+    console.log(fruits.[2]); //Output: coconut
+    console.log(fruits.[3]); //Output: orange
+    ``
+* `.reverse()` - sorts the elements in reverse order
+
+    ```https
+    let fruits = ["apple", "orange". "banana", "Coconut"];
+    fruits.unshift("mango);
+
+    console.log(fruits.[0]); //Output: orange
+    console.log(fruits.[1]); //Output: coconut
+    console.log(fruits.[2]); //Output: banana
+    console.log(fruits.[3]); //Output: apple
+    ``
 
