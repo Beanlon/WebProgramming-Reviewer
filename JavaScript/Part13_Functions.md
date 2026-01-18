@@ -39,3 +39,41 @@ console.log("The sum is " + add(3,5)); //Output: The sum is 8
 ```
 As you can see the console log immediately has the function add with 3 and 5 as the values and now they are going to be added with the variable named sum and then returns meaning that the answer is going to be returned and be displayed immediately. 
 
+## Variable Scope 
+This refers to how the variables are being processed by a specific function and how they work within a particular function.
+
+There  are two types of variables:
+* `Global variable` - Global variables are accessible to any of the functions when they are called, these variables are outside any variable making them accessible.
+#### Example
+```https
+let x = 3;
+
+function1(); //Output: 3
+function2(); //Output: 3
+
+function function1() {
+    console.log(x)
+}
+
+function function2() {
+    console.log(x)
+}
+
+```
+
+* `Local variable` - Local variables are only accessible within their particular functions and cannot be accessed outside or from another function.
+#### Example
+```https
+function1(); //Output: 3
+function2(); //Output: This will cause an error 
+
+function function1() {
+    let x = 3;
+    console.log(x)
+}
+
+function function2() {
+    console.log(x)
+}
+```
+
