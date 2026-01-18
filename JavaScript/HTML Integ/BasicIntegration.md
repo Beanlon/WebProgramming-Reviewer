@@ -47,7 +47,7 @@ Using HTML we are going to change a specific text in an element in our `index.ht
 </body>
 </html> 
 ```
-#### index.html
+#### index.js
 ```https
 let username;
 
