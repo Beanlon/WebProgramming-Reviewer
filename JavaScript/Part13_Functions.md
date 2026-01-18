@@ -44,36 +44,36 @@ This refers to how the variables are being processed by a specific function and 
 
 There  are two types of variables:
 * `Global variable` - Global variables are accessible to any of the functions when they are called, these variables are outside any variable making them accessible.
-#### Example
-```https
-let x = 3;
+  #### Example
+  ```https
+  let x = 3;
 
-function1(); //Output: 3
-function2(); //Output: 3
+  function1(); //Output: 3
+  function2(); //Output: 3
 
-function function1() {
-    console.log(x)
-}
+  function function1() {
+      console.log(x)
+  }
 
-function function2() {
-    console.log(x)
-}
+  function function2() {
+      console.log(x)
+  }
 
-```
+  ```
 
 * `Local variable` - Local variables are only accessible within their particular functions and cannot be accessed outside or from another function.
-#### Example
-```https
-function1(); //Output: 3
-function2(); //Output: This will cause an error 
+  #### Example
+  ```https
+  function1(); //Output: 3
+  function2(); //Output: This will cause an error 
 
-function function1() {
-    let x = 3;
-    console.log(x)
-}
+  function function1() {
+      let x = 3;
+      console.log(x)
+  }
 
-function function2() {
-    console.log(x)
-}
-```
+  function function2() {
+      console.log(x)
+  }
+  ```
 
