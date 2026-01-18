@@ -78,3 +78,55 @@ for (let i = 0; i < matrix.length; i++) {
 ```
 
 In the above example, matrix is a 3x3 grid where each sub-array represents a row.
+
+## Array methods
+These are some extra properties or utilities of an array
+
+* `push()` - Push allows us to add an element automatically in the array
+
+    ```https
+    let fruits = ["apple", "orange". "banana"];
+    fruits.push("coconut");
+
+    console.log(fruits.[0]); //Output: apple
+    console.log(fruits.[1]); //Output: orange
+    console.log(fruits.[2]); //Output: banana
+    console.log(fruits.[3]); //Output: coconut
+    ```
+    **Note**: You can also just simply just do `fruits[3] = "coconut"`
+
+* `pop()` - pop removes the last element
+
+    ```https
+    let fruits = ["apple", "orange". "banana"];
+    fruits.pop();
+
+    console.log(fruits.[0]); //Output: apple
+    console.log(fruits.[1]); //Output: orange
+    console.log(fruits.[2]); //Output: undefined
+    console.log(fruits.[3]); //Output: undefined
+    ```
+
+* `unshift()` - adds an element in the beggining which moves ever other element
+
+    ```https
+    let fruits = ["apple", "orange". "banana"];
+    fruits.unshift("mango);
+
+    console.log(fruits.[0]); //Output: mango
+    console.log(fruits.[1]); //Output: apple
+    console.log(fruits.[2]); //Output: orange
+    console.log(fruits.[3]); //Output: banana
+    ```
+* `shift()` - removes an element from the beggining
+
+    ```https
+    let fruits = ["apple", "orange". "banana"];
+    fruits.unshift("mango);
+
+    console.log(fruits.[0]); //Output: orange
+    console.log(fruits.[1]); //Output: banana
+    console.log(fruits.[2]); //Output: undefined
+    console.log(fruits.[3]); //Output: undefined
+    ``
+
