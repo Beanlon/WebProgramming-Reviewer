@@ -5,12 +5,52 @@ The HTML id attribute is used to specify a unique id for an HTML element.
 
 You cannot have more than one element with the same id in an HTML document.
 
-The `id` Attribute
+## The `class` Attribute
+The `class` attribute is often used to point to a class name in a style sheet. It is usually utilized around div and when being designed in css make sure that you pu a period(.) before the name of the class
+
+#### Example
+```https
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="city">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div class="city">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="city">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+</body>
+</html>
+```
+As you can see every class named `city` is using the same css design which means that each div have similar outputs.
+
+## The `id` Attribute
 The `id` attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.
 
 The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.
 
-The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
+The syntax for id is: write a hash character `(#)`, followed by an id name. Then, define the CSS properties within curly braces {}.
 
 In the following example we have an `<h1>` element that points to the id name "myHeader". This `<h1>` element will be styled according to the #myHeader style definition in the head section:
 
