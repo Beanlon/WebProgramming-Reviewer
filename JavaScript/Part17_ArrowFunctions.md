@@ -6,6 +6,12 @@ The format looks like this
 
 #### Example
 ```https 
+const hello = function(){
+  console.log("Hello");
+}
+
+//Now let's turn it like this
+
 const hello = (name, age) => {console.log(`Hello${name}`)
                               console.log(`You aer ${age} years old`)};
 hello("Bro", 25);
