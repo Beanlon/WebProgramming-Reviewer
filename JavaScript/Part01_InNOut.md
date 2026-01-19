@@ -1,66 +1,27 @@
-# Input & Output
-The input and output are done using the keyword `prompt` or just `readLine` for allowing input in the program
+# Objects
+A collection of related properties and/or methods. It can represent real world objects (people, products, places) 
 
-#### Input
+The format looks like this
 ```https
-let name = readLine("Please enter your name:");
+object = {key:value, function()}
 ```
-#### Output
-```https
-Please enter your name: Jeric
-```
-
-
-## Handling Numerical Values
-When handling numbers in Javascript make sure to always add the keyword `Number` on it before typing in the prompt
-
-#### Input
-```https
-let age = readLine("Please enter your age:");
-```
-#### Output
-```https
-Please enter your age: 19
-```
-
-But when handling `float` make sure to use `parseFloat` instead
-
 #### Example
 ```https
-let weight = parseFloat(readLine("Please enter your weight:"));
-```
-#### Output
-```https
-Please enter your weight: 65.50
-```
+const person = {
+    firstName: "Spongebob";
+    lastName: "Squarepants";
+    age: 30
+    siEmployed: true;
+    sayHello: function(){console.log("Hi! I am Spongbob!")};
+}
 
-## Outputting 
-When outputting values make sure to use `console.log`.
-#### Input
-```https
-let output = console.log("Hello my name is Jeric");
+console.log(person.firstName); //Output: Spongebob
+console.log(person.lastName); //Output: Squarepants
+console.log(person.age); //Output: 30
+console.log(person.isEmployed); //Output: true;
+person.sayHello();//Output: "Hi! I am Spongbob!"
 ```
-#### Output
-```https
-Hello my name is Jeric
-```
-## Outputting with Values
-When outputting values make sure to use `${}` when you already have your input and need it to be displayed
-#### Input
-```https
-let output = console.log(`Hi ${name}`);
-```
-#### Output
-```https
-Hi Jeric
-```
-If your output is a numerical value with decimals make sure to add a fixed decimal place and use `.toFixed`
-#### Input
-```https
-let output = console.log(`The price is ${price.toFixed(2)} pesos.`);
-```
-#### Output
-```https
-The price is 100.00 pesos.
-```
+As you can see we declare an object as a `const` named person, it hase attributes such as `firstName` and `lastName` as well as  `age` and and a boolean named `isEmployed`, there are also functions inside the object such as `sayHello` which prints out a string which is called out later.
+
+
 
