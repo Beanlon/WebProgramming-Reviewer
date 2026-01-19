@@ -59,4 +59,4 @@ console.log(even); //Output: 2, 4, 6
 console.log(total) //Output: 21
 ```
 
-**Note**: Use `()` when you have zero or two or more parameters and for the body but you can also put one, if you have only olne variable use `{}` whe you have two or more statements as shown in the first example or when you are explicitely using `return` statements. 
+**Note**: Use `()` when you have zero or two or more parameters and for the body but you can also put one, if you have only olny variable, use `{}` when you have two or more statements as shown in the first example or when you are explicitely using `return` statements. 
