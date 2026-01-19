@@ -33,7 +33,7 @@ function hello (){
 ```
 Now let's turn this into a function expression
 ```https
-setTimeout(function hello (){
+setTimeout(function(){
     console.log("Hello);
 },3000);
 
