@@ -63,4 +63,3 @@ let output = console.log(`The price is ${price.toFixed(2)} pesos.`);
 ```https
 The price is 100.00 pesos.
 ```
-

@@ -1,0 +1,21 @@
+body{
+    background-image: url(/images/rainbow.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+}
+#clock-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+
+#clock{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:100px;
+    font-weight: bold;
+    text-align: center;
+}
