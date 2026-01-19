@@ -6,14 +6,16 @@ The format looks like this
 
 #### Example
 ```https 
-const hello = function(){
-  console.log("Hello");
+const hello = function(name, age){
+  console.log(`Hello${name}`);
+  console.log(`You are ${age} years old`);
 }
+ ```
 
-//Now let's turn it like this
-
+Now let's change it to this
+```https
 const hello = (name, age) => {console.log(`Hello${name}`)
-                              console.log(`You aer ${age} years old`)};
+                              console.log(`You are ${age} years old`)};
 hello("Bro", 25);
 
 //Output: Hello Bro
