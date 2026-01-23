@@ -13,6 +13,16 @@ The **font-size** property is used to specify the size of the text. You can use 
 ```
 The above example sets the font size of `<p>` elements to the specified size.
 
+## Font family 
+The `font-family` is used to determine the font style it wants to use whether it be roboto, or arial or any other font family
+here's an example
+
+```https
+p.a {
+  font-family: "Times New Roman", Times, serif;
+}
+```
+
 ## Font Weight
 The **font-weight** property allows you to specify the thickness or boldness of the text. You can use values like normal, bold, or numeric values such as 200 or 700, with a minimum value of 100 and a maximum value of 900. The default value of font-weight is 400 for normal text. Here's an example:
 ```https
